@@ -15,10 +15,15 @@ class User {
 
 }
 
-// create user 
+// create user1 
 $user1= new User();
 $user1 ->name="Adib";
 $user1 ->email="adiburraman11@gmail.com";
 var_dump($user1);
+
+// Create user2 
+$user2= new User();
+$user2 ->email="adib123@gmail.com";
+var_dump($user2);
 
 ?>
